@@ -2,11 +2,12 @@
 #A very simple guess-the-number game. My first thing I have ever made :D
 
 name = input("What is your name? ")
-my_number = 0
+ my_number = 0
 
 while(my_number != 5):
+
     my_number = input("Hello "+name+"! "+"Pick a number between 1 and 20! ")
-    my_number = int(my_number)
+     my_number = int(my_number)
 
     if(my_number < 1):
         print("This number is too small! ")
